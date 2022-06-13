@@ -10,7 +10,8 @@ date: 2022-06-13 00:00:00 -0000
 We have a dataset of the number of fans arrested at each NFL game from 2011 to 2015, and another of the number of NFL players arrested each game during that same time period. The intention of this visualization project was to look for potential trends/correlations among these datasets.
 
 ## Visualizations
-<center><iframe src="https://public.tableau.com/shared/TTCN6TTJ5?:display_count=n&:origin=viz_share_link" width="1416" height="1091" frameborder="0"></iframe></center>
+<iframe src="https://public.tableau.com/views/projectWIP3/TheStory?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"
+width="1200" height="800"></iframe>
 
 ## Dataset 1 - Prepping the Fans Arrests Data
 
@@ -19,7 +20,7 @@ We have a dataset of the number of fans arrested at each NFL game from 2011 to 2
 import pandas as pd
 import re
 import numpy as np
-data = pd.read_csv("Class Assignment Data/nfl_arrests_2011-2015.csv", encoding = 'unicode_escape')
+data = pd.read_csv("nfl_arrests_2011-2015.csv", encoding = 'unicode_escape')
 ```
 
 
@@ -231,7 +232,7 @@ for snuh in range(0,len(data)):
 
 ```python
 #Export Dataframe to CSV
-data.to_csv(r'Class Assignment Data/nfl_arrests.csv', index = False)
+data.to_csv(r'nfl_arrests.csv', index = False)
 ```
 Dataset 1 is properly formatted and can be exported as a CSV for use in Tableau.
 ## Dataset 2 - NFL Player Arrests
@@ -239,7 +240,7 @@ Dataset 1 is properly formatted and can be exported as a CSV for use in Tableau.
 
 ```python
 #New Dataset, NFL Player Arrests
-data2 = pd.read_csv("Class Assignment Data/nfl_player_arrests.csv", encoding = 'unicode_escape')
+data2 = pd.read_csv("nfl_player_arrests.csv", encoding = 'unicode_escape')
 #Check out the data, look for Missing Data
 data2.head()
 ```
@@ -340,7 +341,7 @@ data2.head()
 
 ```python
 #We need to standardize Team Names--importing a new csv file with two columns to help ease the transition
-data3 = pd.read_csv("Class Assignment Data/nfl_names_conversion.csv", encoding = 'unicode_escape')
+data3 = pd.read_csv("nfl_names_conversion.csv", encoding = 'unicode_escape')
 data3.head()
 ```
 
@@ -701,6 +702,6 @@ data2.head(20)
 
 ```python
 #Export Dataframe to CSV
-data2.to_csv(r'Class Assignment Data/nfl_players.csv', index = False)
+data2.to_csv(r'nfl_players.csv', index = False)
 ```
 Both datasets are prepped to be used in Tableau.

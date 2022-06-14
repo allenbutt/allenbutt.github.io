@@ -3,6 +3,9 @@ layout: splash
 title: "NFL Arrests Visualization Project"
 subtitle: "Fan Arrests vs Player Arrests"
 date: 2022-06-13 00:00:00 -0000
+header:
+  overlay_image: /assets/images/blue.jpg
+  show_overlay_excerpt: false
 #background: 
 ---
 

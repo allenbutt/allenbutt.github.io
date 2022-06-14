@@ -103,7 +103,7 @@ author:
   bio              : "Aspiring data analyst, professional background in accounting and economics. Looking for projects/opportunities in the world of data."
   location         : "Las Vegas, NV"
   email            : "allenbutt1122@hotmail.com"
-  linkedin         : "https://www.linkedin.com/in/allen-butt-53548547"
+  linkedin         : "/allen-butt-53548547"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

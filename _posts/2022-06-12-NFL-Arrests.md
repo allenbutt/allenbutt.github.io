@@ -10,7 +10,7 @@ header:
 ---
 
 ## NFL Arrests Visualization Project
-We have a dataset of the number of fans arrested at each NFL game from 2011 to 2015, and another of the number of NFL players arrested each game during that same time period. The intention of this visualization project was to look for potential trends/correlations among these datasets.
+We have a dataset of the number of fans arrested at each NFL game from 2011 to 2015, and another of the number of NFL players arrested during that same time period. Could the rowdiness of fans be related to the bad behavior of the players on their local teams? How about local crime rates? This project created a variety of visualizations to compare these factors, without going into predictive modeling.
 
 ## Visualizations
 <iframe src="https://public.tableau.com/views/projectWIP3/TheStory?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"
